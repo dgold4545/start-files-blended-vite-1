@@ -1,4 +1,5 @@
 import styles from './BlogCard.module.css';
+import { formatDistanceToNow } from 'date-fns';
 
 export const BlogCard = props => {
   return (
@@ -19,8 +20,10 @@ export const BlogCard = props => {
         <div className={styles.userBox}>
           <img className={styles.avatar} src={props.avatar} alt="Jane Doe" />
           <div>
-            <h3 className={styles.userName}>{name}</h3>
-            <small className={styles.date}>{props.postedAt}</small>
+            <h3 className={styles.userName}>{props.name}</h3>
+            <small className={styles.date}>
+              {formatDistanceToNow(props.postedAt)}
+            </small>
           </div>
         </div>
       </div>
