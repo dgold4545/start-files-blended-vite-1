@@ -40,5 +40,26 @@
     "capital": 1.5,
     "avatar": "https://randomuser.me/api/portraits/women/62.jpg",
     "isIncrease": true
+  },
+  {
+    "id": "7",
+    "name": " Boris Bilyk",
+    "capital": 11.5,
+    "avatar": "https://randomuser.me/api/portraits/men/62.jpg",
+    "isIncrease": true
+  },
+  {
+    "id": "8",
+    "name": " Kiril Makarow",
+    "capital": 1.5,
+    "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
+    "isIncrease": true
+  },
+  {
+    "id": "9",
+    "name": " Jeny Alhimenok",
+    "capital": 2.521,
+    "avatar": "https://randomuser.me/api/portraits/men/21.jpg",
+    "isIncrease": true
   }
 ]
